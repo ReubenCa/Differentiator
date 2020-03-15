@@ -8,16 +8,39 @@ namespace Differentiator
 {
     class Program
     {
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
-          
 
 
-            Console.WriteLine("Enter Sum");
-            string sum = Console.ReadLine();
-            Equation Fred = new Equation(sum);
-            Console.WriteLine(Fred.Getvalue());
-            Console.ReadLine();
+
+            while (true)
+            {
+
+                Console.WriteLine("Enter Sum");
+                string Sum = Console.ReadLine();
+                // string FormattedSum = Format(Sum);
+
+
+                Equation Fred = new Equation(Sum);
+                Console.WriteLine(Fred.Getvalue());
+                
+            }
         }
+      //static private string Format(string Sum)
+      //  {
+      //      for (int i =0; i< Sum.Length; i++)
+      //      {
+      //          if(Sum[i] == '-')
+      //          {
+      //             Sum= Sum.Insert(i+1, "+");
+      //              //i = 0;
+      //          }
+      //      }
+
+
+
+      //      Console.WriteLine("Formatted input into: " + Sum);
+      //      return Sum;
+      //  }
     }
 }

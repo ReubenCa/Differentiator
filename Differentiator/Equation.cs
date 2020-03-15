@@ -10,14 +10,14 @@ namespace Differentiator
 {
     class Equation
     {
-        char[] SymbolsInOrder = new char[] { '+', '*' };
+        char[] SymbolsInOrder = new char[] { '+','-','/', '*' };
         string Contents;
         string[] Sections;
         Node ChildNode;
         bool HasChildren;
         string value;
         public Equation(string Contents_)
-        {
+        { 
             Contents = Contents_;
             Console.WriteLine("Creating Equation with contents: " + Contents);
             int x;
@@ -49,18 +49,18 @@ namespace Differentiator
         char GetSymbolToUse()
         {
             
-                for (int i = 0; i < Contents.Length; i++)
+                for (int i = 0; i < SymbolsInOrder.Length; i++)
                 {
                     if (FindSymbol(SymbolsInOrder[i]))
                     {
                         return SymbolsInOrder[i];
                     }
                 }
-                Console.WriteLine("Error Finding Symbol To use");
-                return '@';
+                
             
-            
-          
+            Console.WriteLine("Error Finding Symbol To use");
+            return '@';
+
         }
 
         private bool FindSymbol(char Symbol)
@@ -84,6 +84,13 @@ namespace Differentiator
                 case '*':
                     ChildNode = new Multiply(ChildContents);
                     break;
+                case '/':
+                    ChildNode = new Divide(ChildContents);
+                    break;
+                case '-':
+                    ChildNode = new Subtract(ChildContents);
+                    break;
+                
 
 
             }
@@ -91,14 +98,17 @@ namespace Differentiator
 
         public string Getvalue()
         {
+
             if (!HasChildren)
             {
+                Console.WriteLine("Equation with Contents of {0} is returning {1}",  Contents, value.ToString());
                 return value.ToString();
             }
             else
             {
-                
-                return ChildNode.GetValue();
+                string ChildVal = ChildNode.GetValue();
+                Console.WriteLine("Equation with Contents of {0} is returning {1}",  Contents, ChildVal);
+                return ChildVal;
             }
         }
        

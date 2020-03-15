@@ -9,10 +9,11 @@ namespace Differentiator
     class Node
     {
       char Symbol;
-        string[] Sections;
+      protected  string[] Sections;
         Object[] Children;
       protected  List<string> Ints = new List<string>();
        protected List<string> NonInts = new List<string>();
+        protected List<string> Vals = new List<string>();
 
         public Node(string Equation)
         {
@@ -27,30 +28,42 @@ namespace Differentiator
                 Children[i] = new Equation(Sections[i]);
             }
         }
-        public virtual string GetTotalVal()
+        public  string GetValue()
         {
-            return "Error";
-        }
-
-        public string GetValue()
-        {
-            
-
-            for (int i = 0; i <Children.Length; i++)
+            for (int i = 0; i < Children.Length; i++)
             {
                 Object obj = Children[i];
                 Equation eq = (Equation)obj;
                 string eqval = eq.Getvalue();
-                if (Isint(eqval))
+                Vals.Add(eqval);
+            }
+            return CalculateVal();
+        }
+
+        public virtual string CalculateVal()
+        {
+            Console.WriteLine("Error calling function CalculateVal");
+            return "Error";
+        }
+
+
+        public void SeperateIntoLists()
+        {
+            
+
+            for (int i = 0; i <Vals.Count(); i++)
+            {
+                string CurrentValueBeingSorted = Vals[i];
+                if (Isint(CurrentValueBeingSorted))
                 {
-                    Ints.Add(eqval);
+                    Ints.Add(CurrentValueBeingSorted);
                 }
                 else
                 {
-                    NonInts.Add(eqval);
+                    NonInts.Add(CurrentValueBeingSorted);
                 }
             }
-            return GetTotalVal();
+            
         }
 
 

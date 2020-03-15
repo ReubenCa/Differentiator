@@ -1,0 +1,6 @@
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\bin\Debug\Differentiator.exe.config
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\bin\Debug\Differentiator.exe
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\bin\Debug\Differentiator.pdb
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\obj\Debug\Differentiator.exe
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\obj\Debug\Differentiator.pdb

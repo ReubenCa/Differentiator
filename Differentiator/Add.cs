@@ -19,8 +19,9 @@ namespace Differentiator
             return '+' ;
         }
 
-        public  override string GetTotalVal()
+        public  override string CalculateVal()
         {
+            SeperateIntoLists();
             int Totalints = 0 ;
             string Totalstrings = "";
             for (int i = 0; i < Ints.Count(); i++)
