@@ -10,7 +10,7 @@ namespace Differentiator
 {
     class Equation
     {
-        char[] SymbolsInOrder = new char[] { '+','-','/', '*' };
+        char[] SymbolsInOrder = new char[] { '+','-','/', '*', '^' };
         string Contents;
         string[] Sections;
         Node ChildNode;
@@ -90,7 +90,10 @@ namespace Differentiator
                 case '-':
                     ChildNode = new Subtract(ChildContents);
                     break;
-                
+                case '^':
+                    ChildNode = new Exponent(ChildContents);
+                    break;
+
 
 
             }

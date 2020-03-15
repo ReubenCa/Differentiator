@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Add.cs" />
     <Compile Include="Divide.cs" />
+    <Compile Include="Exponent.cs" />
     <Compile Include="Multiply.cs" />
     <Compile Include="Equation.cs" />
     <Compile Include="Node.cs" />

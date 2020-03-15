@@ -8,7 +8,7 @@ namespace Differentiator
 {
     class Multiply : Node
     {
-        new char Symbol = '*';
+       
         public Multiply(string Equation) : base(Equation)
         {
         }
