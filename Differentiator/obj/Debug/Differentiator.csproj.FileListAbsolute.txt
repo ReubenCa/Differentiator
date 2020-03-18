@@ -4,3 +4,16 @@ C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projec
 C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projects\Not Forms\Differentiator\bin\Debug\Differentiator.pdb
 C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projects\Not Forms\Differentiator\obj\Debug\Differentiator.exe
 C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projects\Not Forms\Differentiator\obj\Debug\Differentiator.pdb
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\bin\Debug\Differentiator.exe.config
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\bin\Debug\Differentiator.exe
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\bin\Debug\Differentiator.pdb
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\obj\Debug\Differentiator.csprojAssemblyReference.cache
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\obj\Debug\Differentiator.exe
+C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\obj\Debug\Differentiator.pdb
+\\internal.hereford.ac.uk\student\2019 enrolment\rtc9139\My Documents\Computer Science\Github\Differentiator-master\Differentiator-master\Differentiator\bin\Debug\Differentiator.exe.config
+\\internal.hereford.ac.uk\student\2019 enrolment\rtc9139\My Documents\Computer Science\Github\Differentiator-master\Differentiator-master\Differentiator\bin\Debug\Differentiator.exe
+\\internal.hereford.ac.uk\student\2019 enrolment\rtc9139\My Documents\Computer Science\Github\Differentiator-master\Differentiator-master\Differentiator\bin\Debug\Differentiator.pdb
+\\internal.hereford.ac.uk\student\2019 enrolment\rtc9139\My Documents\Computer Science\Github\Differentiator-master\Differentiator-master\Differentiator\obj\Debug\Differentiator.csprojAssemblyReference.cache
+\\internal.hereford.ac.uk\student\2019 enrolment\rtc9139\My Documents\Computer Science\Github\Differentiator-master\Differentiator-master\Differentiator\obj\Debug\Differentiator.csproj.CoreCompileInputs.cache
+\\internal.hereford.ac.uk\student\2019 enrolment\rtc9139\My Documents\Computer Science\Github\Differentiator-master\Differentiator-master\Differentiator\obj\Debug\Differentiator.exe
+\\internal.hereford.ac.uk\student\2019 enrolment\rtc9139\My Documents\Computer Science\Github\Differentiator-master\Differentiator-master\Differentiator\obj\Debug\Differentiator.pdb

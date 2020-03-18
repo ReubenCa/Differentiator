@@ -15,32 +15,22 @@ namespace Differentiator
 
             while (true)
             {
-
-                Console.WriteLine("Enter Sum");
-                string Sum = Console.ReadLine();
-                // string FormattedSum = Format(Sum);
+                string sum = Console.ReadLine();
+              Section Fred = new Section(sum);
 
 
-                Equation Fred = new Equation(Sum);
-                Console.WriteLine(Fred.Getvalue());
-                
             }
+
+
+
+            //literally express everything in terms of functions - just have your multiply blocks return product rule etc
+            // break down into rules if you can -- express trig as function of a function 
+            //eventually functions will be as broken down as possible then you just need to know how to differentiate basic terms as well as trig and e^x
+            //Have terms convereted to own object 'Term' to make adding/expanding brackets much easier much easier -- terms are everything from '5' to 6x^8
+
+            //section will check if it can be split into smaller sections then create a node that splits it and spawns the smaller sections
+            //node does calculation - section does formatting and decides what node is needed
         }
-      //static private string Format(string Sum)
-      //  {
-      //      for (int i =0; i< Sum.Length; i++)
-      //      {
-      //          if(Sum[i] == '-')
-      //          {
-      //             Sum= Sum.Insert(i+1, "+");
-      //              //i = 0;
-      //          }
-      //      }
 
-
-
-      //      Console.WriteLine("Formatted input into: " + Sum);
-      //      return Sum;
-      //  }
     }
 }

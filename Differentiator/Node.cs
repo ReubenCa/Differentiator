@@ -8,75 +8,43 @@ namespace Differentiator
 {
     class Node
     {
-      char Symbol;
-      protected  string[] Sections;
-        Object[] Children;
-      protected  List<string> Ints = new List<string>();
-       protected List<string> NonInts = new List<string>();
-        protected List<string> Vals = new List<string>();
-
-        public Node(string Equation)
+       protected string equation;
+       public Node(string equation_)
         {
-
-            Symbol = this.GetSymbol();
-
-            Console.WriteLine("Creating Node with contents: " + Equation);
-            Sections = Equation.Split(Symbol);
-            Children = new object[Sections.Length];
-            for (int i = 0; i < Sections.Length; i++)
-            {
-                Children[i] = new Equation(Sections[i]);
-            }
-        }
-        public  string GetValue()
-        {
-            for (int i = 0; i < Children.Length; i++)
-            {
-                Object obj = Children[i];
-                Equation eq = (Equation)obj;
-                string eqval = eq.Getvalue();
-                Vals.Add(eqval);
-            }
-            return CalculateVal();
+            equation = equation_;
+            ConsoleMessage(equation);
         }
 
-        public virtual string CalculateVal()
+        protected virtual void ConsoleMessage(string eq)
         {
-            Console.WriteLine("Error calling function CalculateVal");
-            return "Error";
+            Console.WriteLine("Created Node with contents {0}", eq);
+        }
+        public virtual string Differentiate()
+        {
+            return "Node with contents " +  equation  + " did not contain a definition of how to differentiate";
         }
 
-
-        public void SeperateIntoLists()
+      protected int FindFirstCharacterIndex(char Character)
         {
-            
-
-            for (int i = 0; i <Vals.Count(); i++)
-            {
-                string CurrentValueBeingSorted = Vals[i];
-                if (Isint(CurrentValueBeingSorted))
-                {
-                    Ints.Add(CurrentValueBeingSorted);
-                }
-                else
-                {
-                    NonInts.Add(CurrentValueBeingSorted);
-                }
-            }
-            
-        }
-
-
-        protected bool Isint(string a)
-        {
-            int x;
-            return int.TryParse(a, out x);
+            //ignores things in brackets
+            int bracketcount = 0;
            
+            for (int i=0; i<equation.Length;i++)
+            {
+                if (equation[i] == '(')
+                {
+                    bracketcount++;
+                }
+                else if (equation[i] == ')')
+                {
+                    bracketcount--;
+                }
+                if (equation[i]==Character && bracketcount==0)
+                {
+                    return i;
+                }
+            }
+            return -1;
         }
-        public virtual char GetSymbol()
-        {
-            return '@';
-        }
-
     }
 }
