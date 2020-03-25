@@ -4,3 +4,15 @@ C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\bin\Debug\Differen
 C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\obj\Debug\Calculator.csprojAssemblyReference.cache
 C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\obj\Debug\Differentiator.exe
 C:\Users\reube\Documents\GitHub\Differentiator\Differentiator\obj\Debug\Differentiator.pdb
+C:\Users\reube\Documents\Homework\A Levels\A Levels\Computer Science\VS projects\OOP calculator\bin\Debug\Differentiator.exe.config
+C:\Users\reube\Documents\Homework\A Levels\A Levels\Computer Science\VS projects\OOP calculator\bin\Debug\Differentiator.exe
+C:\Users\reube\Documents\Homework\A Levels\A Levels\Computer Science\VS projects\OOP calculator\bin\Debug\Differentiator.pdb
+C:\Users\reube\Documents\Homework\A Levels\A Levels\Computer Science\VS projects\OOP calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\reube\Documents\Homework\A Levels\A Levels\Computer Science\VS projects\OOP calculator\obj\Debug\Differentiator.exe
+C:\Users\reube\Documents\Homework\A Levels\A Levels\Computer Science\VS projects\OOP calculator\obj\Debug\Differentiator.pdb
+C:\Users\reube\Documents\Homework\A Levels\Computer Science\VS projects\OOP calculator\bin\Debug\Differentiator.exe.config
+C:\Users\reube\Documents\Homework\A Levels\Computer Science\VS projects\OOP calculator\bin\Debug\Differentiator.exe
+C:\Users\reube\Documents\Homework\A Levels\Computer Science\VS projects\OOP calculator\bin\Debug\Differentiator.pdb
+C:\Users\reube\Documents\Homework\A Levels\Computer Science\VS projects\OOP calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\reube\Documents\Homework\A Levels\Computer Science\VS projects\OOP calculator\obj\Debug\Differentiator.exe
+C:\Users\reube\Documents\Homework\A Levels\Computer Science\VS projects\OOP calculator\obj\Debug\Differentiator.pdb
