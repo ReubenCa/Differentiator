@@ -1,0 +1,6 @@
+C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projects\Not Forms\Differentiator\obj\Debug\Differentiator.csprojAssemblyReference.cache
+C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projects\Not Forms\Differentiator\bin\Debug\Differentiator.exe.config
+C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projects\Not Forms\Differentiator\bin\Debug\Differentiator.exe
+C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projects\Not Forms\Differentiator\bin\Debug\Differentiator.pdb
+C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projects\Not Forms\Differentiator\obj\Debug\Differentiator.exe
+C:\Users\reube\OneDrive - Hereford Sixth Form College\Computer Science\VS Projects\Not Forms\Differentiator\obj\Debug\Differentiator.pdb
